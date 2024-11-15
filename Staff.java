@@ -1,4 +1,3 @@
-
 class Staff extends Person {
  
     private String School;
@@ -9,6 +8,10 @@ class Staff extends Person {
         this.Address = Address;
         this.School = School;
         this.Salary = Salary;
+    }
+
+    public String toString(){
+        return "Hello I am " + Name + " I lived in " + Address + ". I teach at " + School + " and my Salary every month is " + Salary + ".";
     }
 
     public void setSchool(String school) {
